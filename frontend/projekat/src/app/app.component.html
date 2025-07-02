@@ -1,0 +1,10 @@
+<title>LMS</title>
+<app-header [univerzitet]="univerzitet"></app-header>
+
+<app-menu-bar [fakulteti]="fakulteti" [studijskiProgrami]="studijskiProgrami"></app-menu-bar>
+
+<div class="wrapper">
+  <router-outlet></router-outlet>
+</div>
+
+<app-footer [univerzitet]="univerzitet"></app-footer>

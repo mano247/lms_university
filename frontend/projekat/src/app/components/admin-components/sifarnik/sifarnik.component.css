@@ -1,0 +1,117 @@
+.content{
+    margin: 0 5%; 
+    padding: 0; 
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2{
+    margin-top: 5%;
+}
+
+h2, h3, h4{
+    padding-top: 10px;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    text-align: justify;
+    text-align: center;
+}
+
+p-table{
+    margin-bottom: 50px;
+}
+
+.table-row-even {
+    background-color: #a5a5a5; 
+}
+
+.table-row-odd {
+    background-color: #c48080; 
+}
+
+.content > div{
+    margin-bottom: 50px;
+}
+
+.content > div > h3{
+    text-align: center;
+}
+
+.pretraga{
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 50px;
+}
+
+.prvi_input{
+    margin-left: 120px;
+}
+
+.p-dialog {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.p-dialog .p-dialog-content {
+    padding: 2rem;
+}
+
+.p-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.p-field label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.p-field input, .p-field textarea {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.p-dialog-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.p-dialog-footer .p-button {
+    margin: 0 0.5rem;
+}
+
+p-dropdown{
+    margin-bottom: 40px;
+}
+p-inputGroup{
+    margin: 5px;
+}
+
+.dugme{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+p-button{
+    margin: 5px;
+}

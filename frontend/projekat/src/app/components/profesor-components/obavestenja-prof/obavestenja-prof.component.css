@@ -1,0 +1,128 @@
+.content{
+    margin: 0 5%; 
+    padding: 0; 
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2{
+    margin-top: 5%;
+}
+
+h2, h3, h4{
+    padding-top: 10px;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+
+    text-align: center;
+}
+
+.gObavestenje{
+ width: 80%;
+margin: 20px auto; 
+padding: 20px;
+background-color: rgb(187, 134, 134);
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+word-wrap: break-word; 
+overflow-wrap: break-word; 
+white-space: normal; 
+
+
+}
+
+.gObavestenje h4{
+    text-align: center;
+}
+
+:host ::ng-deep .p-dataview-content {
+    background-color: rgba(255, 255, 255, 0); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p-dataview{
+    padding-bottom: 70px;
+}
+
+p-button{
+    margin: 40px;
+}
+
+div{
+    margin-top: 30px;
+}
+
+p span {
+    color: rgb(40, 102, 43);
+    font-weight: bold;
+}
+
+.p-dialog {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.p-dialog .p-dialog-content {
+    padding: 2rem;
+}
+
+.p-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.p-field label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.p-field input, .p-field textarea {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.p-dialog-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.p-dialog-footer .p-button {
+    margin: 0 0.5rem;
+}
+
+p-button{
+    margin-top: 40px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+p-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+

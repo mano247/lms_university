@@ -1,0 +1,101 @@
+.content{
+    margin: 0 5%; 
+    padding: 0; 
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2{
+    margin-top: 5%;
+    margin-bottom: 50px;
+}
+
+h2, h3, h4{
+    padding-top: 10px;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+
+    text-align: center;
+}
+p-table{
+    margin-bottom: 50px;
+}
+
+:host ::ng-deep .p-datatable-striped .p-datatable-tbody > tr:nth-child(odd) {
+    background-color: #a5a5a5;
+}
+
+:host ::ng-deep .p-datatable-striped .p-datatable-tbody > tr:nth-child(even) {
+    background-color: #c48080;
+}
+
+.pretraga{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    margin-bottom: 50px;
+}
+
+p-button{
+    margin: 5px;
+}
+
+.p-dialog {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.p-dialog .p-dialog-content {
+    padding: 2rem;
+}
+
+.p-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.p-field label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.p-field input, .p-field textarea {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.p-dialog-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.p-dialog-footer .p-button {
+    margin: 0 0.5rem;
+}
+
+p-inputGroup{
+    margin: 10px;
+}
+
+.dugme{
+    margin-bottom: 20px;
+}

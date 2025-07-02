@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import "primeicons/primeicons.css";
+
+body {
+    font-family: 'Merriweather', serif;
+}
+h1, h2, h3 {
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* html{
+    background-color: rgb(173, 173, 173);
+} */
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, app-root{
+    height: 100%;
+}
+
+app-root{
+    display: flex;
+    flex-direction: column;
+}
+
+app-menu-bar {
+    position: sticky; 
+    top: 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.content{
+    border: 1px solid rgb(145, 181, 248);
+    background: linear-gradient(145deg, #dfdfeb, rgb(100, 105, 110));
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3), -8px -8px 20px rgba(255, 255, 255, 0.8);
+
+}
+
+h2, h4, h5 {
+    background: linear-gradient(45deg, #4400ff, #3b5483); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 1px rgba(9, 88, 69, 0.1);
+}
+
+h3{
+    background: linear-gradient(45deg, #884343, #3f3e3e); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 1px rgba(9, 88, 69, 0.1);;
+}
+

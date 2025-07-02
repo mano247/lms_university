@@ -1,0 +1,52 @@
+.content{
+    margin: 0 5%; 
+    padding: 0; 
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2{
+    margin-top: 5%;
+}
+
+h2, h3, h4{
+    padding-top: 10px;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    line-height: 2;
+
+    text-align: justify;
+    text-align: center;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 400px; 
+    margin: 10px 0;
+    padding-bottom: 5%;
+}
+
+iframe {
+    width: 100%;
+    height: 300px; 
+    border: 0;
+}
+
+p-divider{
+    width: 15%;
+}
+
+.podaci{
+    color: rgb(58, 58, 173);
+}
+

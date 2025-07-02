@@ -1,0 +1,104 @@
+.content{
+    margin: 0 5%; 
+    padding: 0; 
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2{
+    margin-top: 5%;
+}
+
+h2, h3, h4{
+    padding-top: 10px;
+}
+h4{
+    text-align: center;
+}
+p{
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    text-align: justify;
+    text-align: center;
+}
+.dugme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dugme > p-inputSwitch{
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    gap: 30px; 
+    width: 100%;
+
+    margin-bottom: 40px;
+}
+
+input{
+    width: 100%; 
+    max-width: 300px; 
+    padding: 10px; 
+
+
+    border: 2px solid #777070; 
+    border-radius: 20px; 
+
+    font-size: 16px; 
+    
+    box-sizing: border-box; 
+    text-align: center;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+    text-align: center; 
+    color: blue; 
+    font-weight: 600;
+}
+
+p-button{
+    margin: 10px;
+}
+
+.postojeci{
+    margin-bottom: 50px;
+}
+
+.novi{
+    margin-bottom: 50px;
+}
+
+.table-row-even {
+    background-color: #a5a5a5; 
+}
+
+.table-row-odd {
+    background-color: #c48080; 
+}
+
+.pretraga{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    margin-bottom: 50px;
+}
+
+p-inputGroup{
+    margin: 5px;
+}

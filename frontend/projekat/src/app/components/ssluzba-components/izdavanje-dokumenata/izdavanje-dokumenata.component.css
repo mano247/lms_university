@@ -1,0 +1,65 @@
+.content{
+    height: 100%;
+    margin: 0 5%; 
+    padding: 0; 
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2{
+    margin-top: 5%;
+}
+
+h2, h3, h4{
+    padding-top: 10px;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    text-align: justify;
+    text-align: center;
+}
+
+.dugme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dugme > p-inputSwitch{
+    margin-top: 20px;
+}
+
+.table-row-even {
+    background-color: #a5a5a5; 
+}
+
+.table-row-odd {
+    background-color: #c48080; 
+}
+p-button{
+    margin: 5px;
+}
+
+.content > div:last-of-type{
+    margin-bottom: 100px;
+}
+
+.pretraga{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    margin-bottom: 50px;
+}
+
+p-inputGroup{
+    margin: 5px;
+}

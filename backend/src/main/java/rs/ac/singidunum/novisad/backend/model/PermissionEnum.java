@@ -1,0 +1,9 @@
+package rs.ac.singidunum.novisad.backend.model;
+
+public enum PermissionEnum {
+	ADMINISTRATOR_PERMISSION,
+	STUDENT_PERMISSION,
+	NASTAVNIK_PERMISSION,
+	KORISNIK_PERMISSION,
+	STUDENTSKASLUZBA_PERMISSION
+}

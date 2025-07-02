@@ -1,0 +1,61 @@
+.content{
+    margin: 0 5%; 
+    padding: 0; 
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2{
+    margin-top: 5%;
+}
+
+h2, h3, h4{
+    padding-top: 10px;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    line-height: 2;
+
+    text-align: justify;
+    text-align: center;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 400px; 
+    margin: 10px 0;
+}
+
+iframe {
+    width: 100%;
+    height: 300px; 
+    border: 0;
+}
+
+.content p:last-of-type{
+    padding-bottom: 5%;
+}
+
+p-divider{
+    width: 15%;
+}
+
+p-divider:nth-of-type(1), .kraci_divider{
+    width: auto;
+}
+
+
+li{
+    padding: 10px;
+}
+
+
